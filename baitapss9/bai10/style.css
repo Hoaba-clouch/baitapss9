@@ -1,0 +1,121 @@
+.header{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #009BE5;
+    color: aliceblue;
+}
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    position:absolute;
+    top: 4px;
+    right: 10px;
+    display: flex;
+    padding-top: 1px;
+    margin-right: 20px;  
+}
+.top p{
+    margin-right: 23px;
+}
+.fa-bell{
+    margin-right: 20px;
+    margin-top: 3px;
+}
+.top img{
+    margin-top: 1px;
+ 
+}
+.header button{
+    padding: 8px;
+    height: 30px;
+    line-height: 1;
+    background-color: #009BE5 ;
+    border-radius: 7px;
+    border: 1px solid white;
+    color: white ;
+    margin-right:10px ;
+}
+.fa-question{
+    margin-right:19px ;
+}
+.na a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 20px;
+}
+.na{
+    background-color: #009BE5;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.search{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: space-around;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    
+    width: 100%;
+    background-color: #faf4f4;
+    margin-bottom: 0;
+   
+   
+}
+.search button{
+    background: #039be5;
+  color: white;
+    border: none;
+       padding: 8px 12px;     border-radius: 4px;
+     font-size: 14px;
+      cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+.user{
+    text-align: center;
+           padding: 50px 40px;
+            color: #666;
+            background-color: #fafafa;
+            width:90% ;
+            margin-left: 60px;
+            border-bottom-left-radius: 7px;
+            border-bottom-right-radius: 7px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+input{
+    flex: 1;
+ border: none;
+  outline: none;
+    font-size: 14px;
+     background: transparent;
+     width: 80%;
+     margin-left: 15px;
+   
+}
+.ch{
+    background-color: rgb(240, 241, 243);
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 5px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    margin-bottom: 0;
+}
+.active{
+    padding-bottom: 17px;
+    border-bottom: 5px solid white;
+ 
+}
